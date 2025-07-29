@@ -2,6 +2,10 @@ Imagify - AI-Powered Image Generator
 An AI-powered image generation web application built with React and Vite. Transform your creative ideas into stunning visuals using advanced AI technology.
 
 
+## 📸 Screenshots
+![Imagify UI Screenshot](./client/public/demo.png)
+
+
 🚀 Features
 
 AI Image Generation: Generate high-quality images from text prompts
