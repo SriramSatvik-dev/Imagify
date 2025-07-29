@@ -1,12 +1,74 @@
-# React + Vite
+Imagify - AI-Powered Image Generator
+An AI-powered image generation web application built with React and Vite. Transform your creative ideas into stunning visuals using advanced AI technology.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+AI Image Generation: Generate high-quality images from text prompts
+Modern UI: Clean and intuitive user interface built with React
+Fast Development: Powered by Vite for lightning-fast development experience
+Responsive Design: Works seamlessly across desktop and mobile devices
+Real-time Preview: Instant image generation and preview
+Download Functionality: Save generated images to your device
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Frontend: React 18
+Backend: Node.js/Express.js
+Styling: Tailwind CSS
+AI API: Clipdrop
+HTTP Client: Axios
+
+## 📁 Project Structure
+
+```
+Imagify/
+│
+├── client/
+│   ├── node_modules/
+│   ├── public/
+│   │   ├── favicon.svg
+│   │   └── vite.svg
+│   ├── src/
+│   │   ├── assets/
+│   │   ├── components/
+│   │   ├── context/
+│   │   ├── pages/
+│   │   ├── App.jsx
+│   │   ├── index.css
+│   │   └── main.jsx
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   └── README.md
+│
+├── server/
+│   ├── config/
+│   │   └── mongodb.js
+│   ├── controllers/
+│   │   ├── imageControllers.js
+│   │   └── userController.js
+│   ├── middlewares/
+│   │   └── auth.js
+│   ├── models/
+│   │   ├── imageModel.js
+│   │   └── userModel.js
+│   ├── node_modules/
+│   ├── routes/
+│   │   ├── imageRoutes.js
+│   │   └── userRoutes.js
+│   ├── package-lock.json
+│   ├── package.json
+│   └── server.js
+│
+├── package-lock.json
+└── README.md
+```
+
+
+<!-- 📋 Prerequisites
+Before running this project, make sure you have:
+
+Node.js (version 16 or higher)
+npm
+Clipdrop API key -->
